@@ -14,6 +14,8 @@ const connection = mysql.createConnection({
     database: config.database.DATABASE
 });
 
+const fs = require('fs');
+
 client.commands = new Discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
@@ -43,3 +45,10 @@ client.on('message', async message => {
         message.reply('Any error ocurred');
     }
 });
+
+for (const file of commandFiles) {
+    const command = require(`./commands/${file}`);
+    client.commands.set(command.name, command);
+}
+
+client.login(config.main.TOKEN)
