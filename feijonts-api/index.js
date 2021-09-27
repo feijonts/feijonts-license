@@ -24,7 +24,7 @@ app.use(express.json())
 app.use(cors())
 
 app.listen(21262, () => {
-    console.log(`Express started at http://api.feijonts.com:21262/`)
+    console.log(`Express started at http://localhost:21262/`)
 })
 
 app.get('/:ip',(req, res) => {
