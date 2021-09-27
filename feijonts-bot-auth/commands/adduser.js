@@ -38,7 +38,7 @@ module.exports = {
                     timeout: 5000
                 })
             });
-            message.guild.channels.cache.get(`891871989847953498`).send(adduserEmbed);
+            message.guild.channels.cache.get(``).send(adduserEmbed);
         }
     }
 };

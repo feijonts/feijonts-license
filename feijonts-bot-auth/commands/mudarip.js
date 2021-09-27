@@ -33,7 +33,7 @@ module.exports = {
                         timeout: 5000
                     })
                 });
-                await message.guild.channels.cache.get(`891871989847953498`).send(ipchangeEmbed);
+                await message.guild.channels.cache.get(``).send(ipchangeEmbed);
             }
         })
     }
