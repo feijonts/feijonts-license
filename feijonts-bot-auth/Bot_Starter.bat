@@ -1,4 +1,4 @@
-title FLAME - BOT
+title API - BOT
 @echo off
 echo Iniciando BOT [...]
 :main
