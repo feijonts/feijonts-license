@@ -1,0 +1,8 @@
+{
+    "database": {
+        "HOST": "localhost",
+        "USER": "root",
+        "PASSWORD": "",
+        "DATABASE": "ipauth"
+    }
+}

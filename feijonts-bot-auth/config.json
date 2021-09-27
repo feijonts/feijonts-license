@@ -1,0 +1,12 @@
+{
+    "main": {
+        "TOKEN": "NzIwNDQ1OTcyNjcyNDEzNzM3.XuGFmQ.KQHVqtD69AaMac6SyFl1zB-gRsQ",
+        "PREFIX": "!"
+    },
+    "database": {
+        "HOST": "localhost",
+        "USER": "root",
+        "PASSWORD": "",
+        "DATABASE": "ipauth"
+    }
+}
